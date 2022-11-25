@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        main {
+            background-color: #333;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .text {
+            font-size: 5rem;
+            font-weight: 900;
+            background-image:
+                    linear-gradient(to left, yellow, white);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: color-change 35s linear infinite;
+        }
+
+        @keyframes color-change{
+            to {
+                background-position: 4500vh;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="text">CodeMyUI</div>
+    </main>
+</body>
+</html>

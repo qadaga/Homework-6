@@ -1,0 +1,25 @@
+body {
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+section {
+    background-color: aqua;
+}
+h1 {
+    margin-left: 210px;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    height: 280px;
+}
+
+
+th,td {
+    padding:0 45px
+}
+
